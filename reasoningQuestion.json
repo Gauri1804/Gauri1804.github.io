@@ -1,0 +1,370 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "name": "Reasoning",
+      "topics": [
+        {
+          "id": "topic_1",
+          "name": "Blood Relations",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Ram is the brother of Shyam. Shyam is the father of Riya. How is Ram related to Riya?",
+              "options": ["Uncle", "Brother", "Father", "Cousin"],
+              "correctAnswer": "Uncle"
+            },
+            {
+              "id": "q2",
+              "question": "A is B’s sister. C is B’s mother. D is C’s father. How is A related to D?",
+              "options": ["Granddaughter", "Daughter", "Niece", "Mother"],
+              "correctAnswer": "Granddaughter"
+            },
+            {
+              "id": "q3",
+              "question": "If P is the son of Q and Q is the daughter of R, how is P related to R?",
+              "options": ["Grandson", "Son", "Nephew", "Uncle"],
+              "correctAnswer": "Grandson"
+            },
+            {
+              "id": "q4",
+              "question": "Neha is the only daughter of Ravi’s only son. How is Neha related to Ravi?",
+              "options": ["Granddaughter", "Daughter", "Sister", "Niece"],
+              "correctAnswer": "Granddaughter"
+            },
+            {
+              "id": "q5",
+              "question": "X is the sister of Y. Y is the mother of Z. How is X related to Z?",
+              "options": ["Aunt", "Mother", "Sister", "Cousin"],
+              "correctAnswer": "Aunt"
+            }
+          ]
+        },
+        {
+          "id": "topic_2",
+          "name": "Calendar",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "How many days are there in a leap year?",
+              "options": ["365", "366", "367", "364"],
+              "correctAnswer": "366"
+            },
+            {
+              "id": "q2",
+              "question": "What day of the week was 1st January 2000?",
+              "options": ["Saturday", "Sunday", "Monday", "Friday"],
+              "correctAnswer": "Saturday"
+            },
+            {
+              "id": "q3",
+              "question": "If today is Wednesday, what will be the day 10 days from now?",
+              "options": ["Saturday", "Friday", "Monday", "Tuesday"],
+              "correctAnswer": "Saturday"
+            },
+            {
+              "id": "q4",
+              "question": "Which month of the year has the least number of days?",
+              "options": ["February", "April", "June", "September"],
+              "correctAnswer": "February"
+            },
+            {
+              "id": "q5",
+              "question": "How many odd days are there in 100 years?",
+              "options": ["5", "1", "0", "2"],
+              "correctAnswer": "5"
+            }
+          ]
+        },
+        {
+          "id": "topic_3",
+          "name": "Clock",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What is the angle between the hands of a clock at 3:00?",
+              "options": ["90°", "180°", "0°", "45°"],
+              "correctAnswer": "90°"
+            },
+            {
+              "id": "q2",
+              "question": "How many times do the hands of a clock coincide in a day?",
+              "options": ["22", "24", "12", "11"],
+              "correctAnswer": "22"
+            },
+            {
+              "id": "q3",
+              "question": "What is the angle between the hands at 9:30?",
+              "options": ["105°", "120°", "90°", "75°"],
+              "correctAnswer": "105°"
+            },
+            {
+              "id": "q4",
+              "question": "How many degrees does the minute hand move in one hour?",
+              "options": ["360", "180", "60", "30"],
+              "correctAnswer": "360"
+            },
+            {
+              "id": "q5",
+              "question": "How many minutes does it take for the minute hand to gain 180° over the hour hand?",
+              "options": ["60", "65.45", "32.73", "54.55"],
+              "correctAnswer": "32.73"
+            }
+          ]
+        },
+        {
+          "id": "topic_4",
+          "name": "Number Series",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What comes next: 2, 4, 8, 16, __?",
+              "options": ["20", "32", "18", "24"],
+              "correctAnswer": "32"
+            },
+            {
+              "id": "q2",
+              "question": "Find the missing number: 1, 4, 9, 16, __, 36",
+              "options": ["25", "20", "30", "28"],
+              "correctAnswer": "25"
+            },
+            {
+              "id": "q3",
+              "question": "Which number completes the series: 5, 10, 20, 40, __?",
+              "options": ["45", "50", "60", "80"],
+              "correctAnswer": "80"
+            },
+            {
+              "id": "q4",
+              "question": "Find the missing number: 81, 27, 9, 3, __",
+              "options": ["0", "2", "1", "0.5"],
+              "correctAnswer": "1"
+            },
+            {
+              "id": "q5",
+              "question": "Next in series: 13, 17, 19, 23, 29, __",
+              "options": ["31", "32", "33", "35"],
+              "correctAnswer": "31"
+            }
+          ]
+        },
+        {
+          "id": "topic_5",
+          "name": "Missing Number",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "2, 4, 6, __, 10",
+              "options": ["7", "8", "9", "12"],
+              "correctAnswer": "8"
+            },
+            {
+              "id": "q2",
+              "question": "3, 6, __, 12, 15",
+              "options": ["7", "8", "9", "10"],
+              "correctAnswer": "9"
+            },
+            {
+              "id": "q3",
+              "question": "1, 4, 9, __, 25",
+              "options": ["16", "20", "22", "18"],
+              "correctAnswer": "16"
+            },
+            {
+              "id": "q4",
+              "question": "10, 20, __, 40, 50",
+              "options": ["25", "30", "35", "28"],
+              "correctAnswer": "30"
+            },
+            {
+              "id": "q5",
+              "question": "5, 10, 15, __, 25",
+              "options": ["20", "22", "18", "19"],
+              "correctAnswer": "20"
+            }
+          ]
+        },
+        {
+          "id": "topic_6",
+          "name": "Mixed Series",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What is next in the pattern: A, C, E, G, __?",
+              "options": ["H", "I", "J", "K"],
+              "correctAnswer": "I"
+            },
+            {
+              "id": "q2",
+              "question": "1A, 2B, 3C, 4D, __",
+              "options": ["5D", "5E", "6F", "5F"],
+              "correctAnswer": "5E"
+            },
+            {
+              "id": "q3",
+              "question": "Z, X, V, T, __?",
+              "options": ["R", "S", "Q", "P"],
+              "correctAnswer": "R"
+            },
+            {
+              "id": "q4",
+              "question": "AZ, BY, CX, DW, __?",
+              "options": ["EV", "FX", "EX", "EZ"],
+              "correctAnswer": "EV"
+            },
+            {
+              "id": "q5",
+              "question": "What comes next: 2A, 4B, 6C, 8D, __?",
+              "options": ["9E", "10E", "10F", "12E"],
+              "correctAnswer": "10E"
+            }
+          ]
+        },
+        {
+          "id": "topic_7",
+          "name": "Counting Figures",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "How many triangles are in a square divided by 2 diagonals?",
+              "options": ["4", "6", "8", "2"],
+              "correctAnswer": "4"
+            },
+            {
+              "id": "q2",
+              "question": "A rectangle is divided into 4 equal squares. How many rectangles are there?",
+              "options": ["6", "9", "8", "10"],
+              "correctAnswer": "10"
+            },
+            {
+              "id": "q3",
+              "question": "In a star, how many total triangles can be counted?",
+              "options": ["6", "10", "12", "8"],
+              "correctAnswer": "10"
+            },
+            {
+              "id": "q4",
+              "question": "A triangle is divided into 3 small triangles by drawing medians. How many triangles are there?",
+              "options": ["3", "4", "5", "6"],
+              "correctAnswer": "4"
+            },
+            {
+              "id": "q5",
+              "question": "In a grid of 2x2 squares, how many squares total?",
+              "options": ["4", "5", "9", "6"],
+              "correctAnswer": "5"
+            }
+          ]
+        },
+        {
+          "id": "topic_8",
+          "name": "Cube and Dice",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "How many faces does a cube have?",
+              "options": ["4", "5", "6", "8"],
+              "correctAnswer": "6"
+            },
+            {
+              "id": "q2",
+              "question": "If opposite faces of a dice show 1-6, 2-5, 3-4, what number is opposite to 2?",
+              "options": ["5", "3", "1", "4"],
+              "correctAnswer": "5"
+            },
+            {
+              "id": "q3",
+              "question": "A cube is painted on all sides and cut into 64 smaller cubes. How many will have no paint?",
+              "options": ["8", "16", "27", "0"],
+              "correctAnswer": "8"
+            },
+            {
+              "id": "q4",
+              "question": "How many edges does a cube have?",
+              "options": ["12", "10", "6", "8"],
+              "correctAnswer": "12"
+            },
+            {
+              "id": "q5",
+              "question": "Which solid has all faces square and equal?",
+              "options": ["Cuboid", "Pyramid", "Sphere", "Cube"],
+              "correctAnswer": "Cube"
+            }
+          ]
+        },
+        {
+          "id": "topic_9",
+          "name": "Decision Making",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "You see a wallet on the road. What should you do?",
+              "options": ["Take it", "Ignore it", "Submit it to police", "Spend the money"],
+              "correctAnswer": "Submit it to police"
+            },
+            {
+              "id": "q2",
+              "question": "If you are late to office daily, what should you do?",
+              "options": ["Blame traffic", "Improve schedule", "Ignore", "Lie"],
+              "correctAnswer": "Improve schedule"
+            },
+            {
+              "id": "q3",
+              "question": "A friend cheats in a test. What will you do?",
+              "options": ["Help him", "Report", "Ignore", "Join him"],
+              "correctAnswer": "Report"
+            },
+            {
+              "id": "q4",
+              "question": "You find a mistake in your salary. What should you do?",
+              "options": ["Keep it", "Report it", "Spend fast", "Ignore"],
+              "correctAnswer": "Report it"
+            },
+            {
+              "id": "q5",
+              "question": "You're lost in a forest. What should you do first?",
+              "options": ["Panic", "Call for help", "Keep walking", "Sleep"],
+              "correctAnswer": "Call for help"
+            }
+          ]
+        },
+        {
+          "id": "topic_10",
+          "name": "Distance & Directions",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "If a person walks 5km North and turns East for 3km, how far is he from start?",
+              "options": ["5km", "3km", "8km", "5.83km"],
+              "correctAnswer": "5.83km"
+            },
+            {
+              "id": "q2",
+              "question": "North is opposite to?",
+              "options": ["South", "East", "West", "North-East"],
+              "correctAnswer": "South"
+            },
+            {
+              "id": "q3",
+              "question": "Facing East, turn right, then right, then left. What direction now?",
+              "options": ["West", "North", "East", "South"],
+              "correctAnswer": "South"
+            },
+            {
+              "id": "q4",
+              "question": "Distance between points A(3,4) and B(0,0)?",
+              "options": ["5", "7", "4", "3"],
+              "correctAnswer": "5"
+            },
+            {
+              "id": "q5",
+              "question": "If you face North, then turn 270° clockwise, you face?",
+              "options": ["West", "East", "South", "North"],
+              "correctAnswer": "West"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
