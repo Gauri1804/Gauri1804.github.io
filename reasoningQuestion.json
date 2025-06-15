@@ -129,7 +129,6 @@
       "correctAnswer": "Father"
     },
 
-    // ----- ADDITIONAL 30 QUESTIONS START HERE -----
     {
       "id": "q21",
       "question": "S is the brother of T. T is the mother of U. How is S related to U?",
@@ -190,7 +189,6 @@
       "options": ["Grandfather", "Father", "Uncle", "Cousin"],
       "correctAnswer": "Grandfather"
     }
-    // Add q31–q50 if you want all 50 now.
   ]
 },
 
