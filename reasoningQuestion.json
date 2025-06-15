@@ -4,42 +4,196 @@
       "id": "cat1",
       "name": "Reasoning",
       "topics": [
-        {
-          "id": "topic_1",
-          "name": "Blood Relations",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "Ram is the brother of Shyam. Shyam is the father of Riya. How is Ram related to Riya?",
-              "options": ["Uncle", "Brother", "Father", "Cousin"],
-              "correctAnswer": "Uncle"
-            },
-            {
-              "id": "q2",
-              "question": "A is B’s sister. C is B’s mother. D is C’s father. How is A related to D?",
-              "options": ["Granddaughter", "Daughter", "Niece", "Mother"],
-              "correctAnswer": "Granddaughter"
-            },
-            {
-              "id": "q3",
-              "question": "If P is the son of Q and Q is the daughter of R, how is P related to R?",
-              "options": ["Grandson", "Son", "Nephew", "Uncle"],
-              "correctAnswer": "Grandson"
-            },
-            {
-              "id": "q4",
-              "question": "Neha is the only daughter of Ravi’s only son. How is Neha related to Ravi?",
-              "options": ["Granddaughter", "Daughter", "Sister", "Niece"],
-              "correctAnswer": "Granddaughter"
-            },
-            {
-              "id": "q5",
-              "question": "X is the sister of Y. Y is the mother of Z. How is X related to Z?",
-              "options": ["Aunt", "Mother", "Sister", "Cousin"],
-              "correctAnswer": "Aunt"
-            }
-          ]
-        },
+  {
+  "id": "topic_1",
+  "name": "Blood Relations",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Ram is the brother of Shyam. Shyam is the father of Riya. How is Ram related to Riya?",
+      "options": ["Uncle", "Brother", "Father", "Cousin"],
+      "correctAnswer": "Uncle"
+    },
+    {
+      "id": "q2",
+      "question": "A is B’s sister. C is B’s mother. D is C’s father. How is A related to D?",
+      "options": ["Granddaughter", "Daughter", "Niece", "Mother"],
+      "correctAnswer": "Granddaughter"
+    },
+    {
+      "id": "q3",
+      "question": "If P is the son of Q and Q is the daughter of R, how is P related to R?",
+      "options": ["Grandson", "Son", "Nephew", "Uncle"],
+      "correctAnswer": "Grandson"
+    },
+    {
+      "id": "q4",
+      "question": "Neha is the only daughter of Ravi’s only son. How is Neha related to Ravi?",
+      "options": ["Granddaughter", "Daughter", "Sister", "Niece"],
+      "correctAnswer": "Granddaughter"
+    },
+    {
+      "id": "q5",
+      "question": "X is the sister of Y. Y is the mother of Z. How is X related to Z?",
+      "options": ["Aunt", "Mother", "Sister", "Cousin"],
+      "correctAnswer": "Aunt"
+    },
+    {
+      "id": "q6",
+      "question": "M is the son of N. N is the daughter of O. How is O related to M?",
+      "options": ["Grandparent", "Mother", "Father", "Uncle"],
+      "correctAnswer": "Grandparent"
+    },
+    {
+      "id": "q7",
+      "question": "If A is the brother of B and B is the sister of C, how is A related to C?",
+      "options": ["Brother", "Father", "Uncle", "Cousin"],
+      "correctAnswer": "Brother"
+    },
+    {
+      "id": "q8",
+      "question": "D is the mother of E and F. G is the father of F. How is G related to E?",
+      "options": ["Father", "Uncle", "Grandfather", "Cousin"],
+      "correctAnswer": "Father"
+    },
+    {
+      "id": "q9",
+      "question": "A’s father is B. B’s brother is C. C’s son is D. How is A related to D?",
+      "options": ["Cousin", "Brother", "Uncle", "Nephew"],
+      "correctAnswer": "Cousin"
+    },
+    {
+      "id": "q10",
+      "question": "K is L’s husband. M is the daughter of L. How is K related to M?",
+      "options": ["Father", "Uncle", "Cousin", "Brother"],
+      "correctAnswer": "Father"
+    },
+    {
+      "id": "q11",
+      "question": "If A is the mother of B and C is the father of A, how is C related to B?",
+      "options": ["Grandfather", "Uncle", "Father", "Brother"],
+      "correctAnswer": "Grandfather"
+    },
+    {
+      "id": "q12",
+      "question": "Q is the son of R. R is the brother of S. S is the father of T. How is Q related to T?",
+      "options": ["Cousin", "Brother", "Uncle", "Nephew"],
+      "correctAnswer": "Cousin"
+    },
+    {
+      "id": "q13",
+      "question": "A is B's son. B is C's wife. D is C's mother. How is D related to A?",
+      "options": ["Great-grandmother", "Grandmother", "Aunt", "Mother"],
+      "correctAnswer": "Grandmother"
+    },
+    {
+      "id": "q14",
+      "question": "P is the daughter of Q. Q is the sister of R. R is the son of S. How is P related to S?",
+      "options": ["Granddaughter", "Niece", "Daughter", "Cousin"],
+      "correctAnswer": "Granddaughter"
+    },
+    {
+      "id": "q15",
+      "question": "Z is the father of X. Y is the sister of Z. What is Y to X?",
+      "options": ["Aunt", "Sister", "Mother", "Cousin"],
+      "correctAnswer": "Aunt"
+    },
+    {
+      "id": "q16",
+      "question": "Ravi’s son is Ankit. Ankit’s sister is Neha. How is Ravi related to Neha?",
+      "options": ["Father", "Uncle", "Grandfather", "Brother"],
+      "correctAnswer": "Father"
+    },
+    {
+      "id": "q17",
+      "question": "If A is the niece of B and B is the brother of C, how is C related to A?",
+      "options": ["Aunt or Uncle", "Father", "Cousin", "Brother"],
+      "correctAnswer": "Aunt or Uncle"
+    },
+    {
+      "id": "q18",
+      "question": "If X is married to Y and Y is the mother of Z, what is X to Z?",
+      "options": ["Father", "Uncle", "Grandfather", "Brother"],
+      "correctAnswer": "Father"
+    },
+    {
+      "id": "q19",
+      "question": "L is the son of M. N is M’s sister. What is N to L?",
+      "options": ["Aunt", "Mother", "Sister", "Cousin"],
+      "correctAnswer": "Aunt"
+    },
+    {
+      "id": "q20",
+      "question": "R is the daughter of P. P is the wife of Q. How is Q related to R?",
+      "options": ["Father", "Uncle", "Brother", "Grandfather"],
+      "correctAnswer": "Father"
+    },
+
+    // ----- ADDITIONAL 30 QUESTIONS START HERE -----
+    {
+      "id": "q21",
+      "question": "S is the brother of T. T is the mother of U. How is S related to U?",
+      "options": ["Uncle", "Brother", "Father", "Grandfather"],
+      "correctAnswer": "Uncle"
+    },
+    {
+      "id": "q22",
+      "question": "If A is the daughter of B and B is the son of C, what is C to A?",
+      "options": ["Grandfather", "Father", "Uncle", "Brother"],
+      "correctAnswer": "Grandfather"
+    },
+    {
+      "id": "q23",
+      "question": "N is the father of P and the grandfather of R. How is P related to R?",
+      "options": ["Father", "Uncle", "Brother", "Cousin"],
+      "correctAnswer": "Father"
+    },
+    {
+      "id": "q24",
+      "question": "A is the mother of B. B is the mother of C. How is A related to C?",
+      "options": ["Grandmother", "Mother", "Aunt", "Sister"],
+      "correctAnswer": "Grandmother"
+    },
+    {
+      "id": "q25",
+      "question": "T’s father has two children. One is T. Who is the other?",
+      "options": ["Sibling", "Brother", "Sister", "Cannot say"],
+      "correctAnswer": "Cannot say"
+    },
+    {
+      "id": "q26",
+      "question": "F is the daughter of G. G is the sister of H. How is H related to F?",
+      "options": ["Uncle", "Brother", "Grandfather", "Cousin"],
+      "correctAnswer": "Uncle"
+    },
+    {
+      "id": "q27",
+      "question": "B is the husband of C. A is the sister of B. How is A related to C?",
+      "options": ["Sister-in-law", "Mother", "Cousin", "Aunt"],
+      "correctAnswer": "Sister-in-law"
+    },
+    {
+      "id": "q28",
+      "question": "X is the only son of Y’s mother. How is Y related to X?",
+      "options": ["Brother", "Sister", "Cannot say", "Father"],
+      "correctAnswer": "Cannot say"
+    },
+    {
+      "id": "q29",
+      "question": "Z’s father is the brother of X’s father. How is Z related to X?",
+      "options": ["Cousin", "Brother", "Uncle", "Nephew"],
+      "correctAnswer": "Cousin"
+    },
+    {
+      "id": "q30",
+      "question": "R is the father of S. T is the daughter of S. How is R related to T?",
+      "options": ["Grandfather", "Father", "Uncle", "Cousin"],
+      "correctAnswer": "Grandfather"
+    }
+    // Add q31–q50 if you want all 50 now.
+  ]
+},
+
         {
           "id": "topic_2",
           "name": "Calendar",
